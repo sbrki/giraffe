@@ -6,11 +6,11 @@ It generates witty names that Docker engine uses to name container instances.
 
 
 ## Use
-```python3
+```python
 import giraffe
 
 print(giraffe.GetRandomName())
 ```
 
 
-`>>>"agitated_wozniak"`
+`agitated_wozniak`
