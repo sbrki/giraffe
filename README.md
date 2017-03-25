@@ -1,7 +1,16 @@
 # giraffe
 
-giraffe is a name generator, ported from Docker/Go to Python 3.
+giraffe is a name generator, ported from **Docker**/Go to Python 3.
+
+It generates witty names that Docker engine uses to name container instances.
 
 
-Changes:
-- ported name generating code to Python 3. 
+## Use
+```python3
+import giraffe
+
+print(giraffe.GetRandomName())
+```
+
+
+`>>>"agitated_wozniak"`
